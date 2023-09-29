@@ -1,0 +1,9 @@
+pandas
+ipython
+notebook
+h5py
+tensorflow>=2.2.0
+scikit-image
+ipympl
+matplotlib
+cartopy

@@ -1,0 +1,16 @@
+version: "1.0"
+
+services:
+  notebook:
+    image: martijnende/corsica2023
+    # image: corsica2023
+    ports:
+      - "9000:9000"
+    environment:
+      - JUPYTER_TOKEN=corsica
+    volumes:
+      - ../DAS_tutorial/:/home/tutorials
+      - corsica2023:/home
+
+volumes:
+  corsica2023:
