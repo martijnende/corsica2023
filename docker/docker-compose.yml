@@ -1,8 +1,8 @@
-version: "1.0"
+version: "3.0"
 
 services:
   notebook:
-    image: martijnende/corsica2023
+    image: martijnende/corsica2023:1.0
     # image: corsica2023
     ports:
       - "9000:9000"
